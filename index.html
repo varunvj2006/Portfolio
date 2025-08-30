@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <div class="profile-placeholder">
+                    <img src="pfp.JPG" alt="Varun Vijay" class="profile-img">
+                </div>
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Varun Vijay</span></h1>
+                <p class="hero-subtitle"></p>
+                <p class="hero-description">Candidate of BASc. Computer Engineering at University of Waterloo.</p>
+                <p class="hero-description">Current Term: 2A</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Icon Navigation -->
+    <section class="icon-nav-section">
+        <div class="container">
+            <div class="icon-nav-grid">
+                <a href="#about" class="icon-link" title="About Me">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a>
+                <a href="https://github.com/varunvj2006" class="icon-link" title="GitHub" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/varun-vijay-21b686327/" class="icon-link" title="LinkedIn" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="#" class="icon-link" title="Resume" onclick="downloadResume()">
+                    <i class="fas fa-file-alt"></i>
+                    <span>Resume</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I have a certain love for creating innovative solutions. Fixing things just sits right with me and it allows me to find peace in what I do. With experience in modern web technologies, I enjoy turning complex problems into simple, beautiful designs.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or enjoying a good cup of coffee while brainstorming the next big idea.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">What I Know</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">C++</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Figma</span>
+                        <span class="skill-item">Windsurf</span>
+                        <span class="skill-item">VS Code</span>
+                        <span class="skill-item">SOLIDWORKS</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">Adobe Premiere Pro</span>
+                        <span class="skill-item">After Effects</span>
+                        <span class="skill-item">Sony VEGAS Pro</span>
+                        <span class="skill-item">Microsoft Office</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Always Looking For Something New...</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>I'm always interested in new opportunities and exciting projects. Let's discuss how we can work together!</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>mevarunvijay@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (226) 339-1729</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Waterloo, Ontario</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/varunvj2006" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/varun-vijay-21b686327/" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:mevarunvijay@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Varun Vijay. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
